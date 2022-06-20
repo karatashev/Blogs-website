@@ -1,0 +1,16 @@
+section {
+  padding-top: 50px;
+  color: #16202b;
+}
+section h2 {
+  text-align: center;
+}
+.posts {
+  width: 80%;
+  margin: 0 auto;
+  padding-right: 30px;
+  padding-left: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}

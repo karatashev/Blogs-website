@@ -1,0 +1,48 @@
+.menu {
+  position: fixed;
+  background-color: #16202b;
+  color: white;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+.btn {
+  width: 25px;
+  cursor: pointer;
+}
+.btn span {
+  display: block;
+  height: 3px;
+  background-color: #fff;
+  margin: 3px 0;
+}
+.menu-list {
+  padding-top: 30px;
+  list-style: none;
+  background-color: #16202b;
+  color: #fff;
+  width: 250px;
+  position: fixed;
+  right: 0;
+  top: 61px;
+  bottom: 0;
+  z-index: 999;
+
+  transition: all 0.3s ease;
+}
+.menu-list.hidden {
+  right: -250px;
+}
+.menu-list li {
+  text-align: center;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.menu-list li:hover {
+  background-color: gray;
+}
