@@ -1,3 +1,11 @@
+
+<img width="1268" alt="Screenshot 2022-06-20 at 12 10 32" src="https://user-images.githubusercontent.com/95942547/174580190-408555e5-8aa2-4737-935d-d40ac8403168.png">
+
+- The website has dynamic Hamburger menu using useState() to toggle between classes.
+- The data for the cards is from API which is fetched inside useEffect()
+- The Titles in the Header Component are dynamically changed using useState() and declared in variable so no matter how many Titles you have they can     be reusable and changable.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
